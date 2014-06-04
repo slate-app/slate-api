@@ -34,7 +34,7 @@ Currently we support only these parameters, which are pretty self-explanatory:
 
 | Parameter | Description | Optional | Default |
 |-----------|-------------|----------|---------|
-|CLIP_ID    | Work id     | - | - |
+|CLIP_ID    | Clip id     | - | - |
 |WIDTH      | Player's width | Yes | 720 |
 |HEIGHT     | Player's height | Yes | 405 |
 |AUTOPLAY   | Autoplay video on load | Yes | false |
