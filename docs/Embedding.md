@@ -7,7 +7,7 @@ We will automatically choose the correct player based on the user’s device.
 Here's what the embed code for player look like:
 
 ```html
-<iframe width="WIDTH" height="HEIGHT" src="http://slate.local/embed/WORK_ID?width=WIDTH&height=HEIGHT" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen="true" scrolling="no"></iframe>
+<iframe width="WIDTH" height="HEIGHT" src="http://you.slateapp.com/embed/WORK_ID?width=WIDTH&height=HEIGHT" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen="true" scrolling="no"></iframe>
 ```
 You can get embed URL for work endpoint response object.
 ```php
