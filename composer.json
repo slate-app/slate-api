@@ -1,0 +1,17 @@
+{
+    "name": "neverbland/slate-api",
+    "require": {
+        "guzzlehttp/guzzle": "~4.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "dev-master"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Wojtek Zalewski",
+            "email": "wojtek@neverbland.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
