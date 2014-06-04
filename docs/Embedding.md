@@ -1,6 +1,6 @@
 # Embedding API
 
-Embedding videos is faily simple, all you need to know is **work_id** you want to embed.
+Embedding videos is fairly simple, all you need to know is **clip_id** you want to embed.
 We will automatically choose the correct player based on the user’s device.
 
 ## Embed code
@@ -34,7 +34,7 @@ Currently we support only these parameters, which are pretty self-explanatory:
 
 | Parameter | Description | Optional | Default |
 |-----------|-------------|----------|---------|
-|WORK_ID    | Work id     | - | - |
+|CLIP_ID    | Work id     | - | - |
 |WIDTH      | Player's width | Yes | 720 |
 |HEIGHT     | Player's height | Yes | 405 |
 |AUTOPLAY   | Autoplay video on load | Yes | false |
