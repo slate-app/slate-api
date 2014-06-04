@@ -7,7 +7,7 @@ We will automatically choose the correct player based on the user’s device.
 Here's what the embed code for player look like:
 
 ```html
-<iframe width="WIDTH" height="HEIGHT" src="http://you.slateapp.com/embed/CLIP_ID?width=WIDTH&height=HEIGHT" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen="true" scrolling="no"></iframe>
+<iframe width="WIDTH" height="HEIGHT" src="http://you.slateapp.com/embed/CLIP_ID?width=WIDTH&height=HEIGHT&autoplay=AUTOPLAY&loop=LOOP&template=TEMPLATE&volume=VOLUME" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen="true" scrolling="no"></iframe>
 ```
 You can get embed URL for work endpoint response object.
 ```php
@@ -32,10 +32,14 @@ array (
 ### Parameters
 Currently we support only these parameters, which are pretty self-explanatory:
 
-| Parameter | Description |
-|--------|--------|
-|WORK_ID   | Work id |
-|WIDTH       | Player's width       |
-|HEIGHT      | Player's height       |
+| Parameter | Description | Optional | Default |
+|-----------|-------------|----------|---------|
+|WORK_ID    | Work id     | - | - |
+|WIDTH      | Player's width | Yes | 720 |
+|HEIGHT     | Player's height | Yes | 405 |
+|AUTOPLAY   | Autoplay video on load | Yes | false |
+|LOOP       | Loop player | Yes | false |
+|TEMPLATE   | Player's template name you want to use | Yes | player |
+|VOLUME     | Player's initial volume | Yes | 1 |
 
 
